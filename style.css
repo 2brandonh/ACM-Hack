@@ -1,0 +1,39 @@
+body {
+    color: red; /*--Color changes, either a name or hex-->*/
+    color: #8E0058;
+}
+
+h1{
+    font-size: 35px;
+    font-family: 'Courier New';
+}
+
+img {
+    border-radius: 70% 20% / 10% 90%;
+}
+
+#art{
+    color: cornflowerblue;
+}
+
+.art2{
+    font-size: 70 px;
+}
+
+@keyframes fire {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;} /*Will change color when animation is % comlete*/
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.art2 { /*class in both*/
+    animation: fire 1s ease infinite;
+}
+
+/*. used for class, # used for id, YOU CAN USE BOTH IN KEYFRAMES, but ID only for 
+/* MDN good for CSS
+
+/*Javascript is a prohramming language that allows you to specialize arbitreary behavior,
+i.e. calculations and operations
